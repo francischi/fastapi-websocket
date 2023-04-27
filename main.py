@@ -86,6 +86,6 @@ if __name__ == '__main__':
 
 # if you dont have pipenv 
 # pip install pipenv
-# pipenv --three (create python3 virtual env)
+# pipenv shell
 # pipenv install (install package in pipfile)
 # pipenv run uvicorn main:app --host 0.0.0.0 --port 8000 --workers 4

@@ -17,16 +17,25 @@ or some load balance policy such as 'uvicorn workers','nginx load balancer',then
 * cd in this project
   
 **run redis service** ```(if you have redis already u can skip this step)```
-* ~~~
+* ```
   ./redis/redis-server.exe
 **use pipenv run  main.py**
-* ~~~
+* ```
   pipenv shell
-* ~~~
+* ```
   pipenv install
-* ~~~
+* ```
   pipenv run uvicorn main:app --host 0.0.0.0 --port 8000 --workers 4
-  ~~~
+  ```
+**socket.html**
+* ```
+  if you use xampp to run your database and phpmyadmin, ypu can put socket.html
+  in path below:
+
+    C:\xampp\htdocs\socket.html
+  
+  type localhost/socket.html as URL and enjoy it !!!
+  ```
 
 ### *notice
 make sure your redis serve on port 6379
